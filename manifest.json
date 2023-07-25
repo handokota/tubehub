@@ -5,6 +5,9 @@
   "author": "handokota",
   "version": "2.0.0",
   "manifest_version": 3,
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
   "permissions": [
     "storage",
     "cookies",
