@@ -1,6 +1,6 @@
 // THEATER MODE
 
-'use strict';
+// 'use strict';
 
 // const set = () => chrome.cookies.set({
 //   url: 'https://www.youtube.com',
