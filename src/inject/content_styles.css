@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-/* CLOSED CAPTIONS */
-
-
-@font-face {
-  font-family: 'Netflix Sans';
-  src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSans-Bold.otf');
-  font-weight: bold;
-=======
 /* BLOCK ADS */
 
 /* Hide by Element */
@@ -152,7 +143,6 @@ ytd-rich-shelf-renderer[is-show-more-hidden] #dismissible.ytd-rich-shelf-rendere
   src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSansBold.ttf');
   font-weight: bold;
   font-style: normal;
->>>>>>> 677f975 (first commit)
 }
 
 span.captions-text {
@@ -165,11 +155,7 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
   font-weight: bold !important;
   background: transparent !important;
   /* text-shadow: 2px 2px 0 #000000 !important; */
-<<<<<<< HEAD
-  text-shadow:#000 0px 0px 1px,
-=======
   /* text-shadow:#000 0px 0px 1px,
->>>>>>> 677f975 (first commit)
               #000 0px 0px 1px,
               #000 0px 0px 1px,
               #000 0px 0px 1px,
@@ -182,9 +168,6 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
               #000 0px 0px 1px,
               #000 0px 0px 1px,
               #000 0px 0px 1px,
-<<<<<<< HEAD
-              #000 0px 0px 1px !important;
-=======
               #000 0px 0px 1px !important; */
   text-shadow:#000 -1px 1px 1px,
               #000 1px 1px 1px,
@@ -226,7 +209,6 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
               #000 1px 1px 1px,
               #000 1px -1px 1px,
               #000 -1px -1px 1px !important;
->>>>>>> 677f975 (first commit)
   font-family: 'Netflix Sans' !important;
   line-height: normal !important;
   -webkit-font-smoothing: antialiased !important;
