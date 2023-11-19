@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CLOSED CAPTIONS */
 
 
@@ -5,6 +6,153 @@
   font-family: 'Netflix Sans';
   src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSans-Bold.otf');
   font-weight: bold;
+=======
+/* BLOCK ADS */
+
+/* Hide by Element */
+
+ytd-promoted-sparkles-web-renderer,
+ytd-promoted-video-renderer,
+ytd-movie-offer-module-renderer,
+ytd-promoted-sparkles-text-search-renderer,
+ytd-player-legacy-desktop-watch-ads-renderer {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide by ID */
+
+#player-ads,
+#search-pva,
+#premium-yva,
+#masthead-ad,
+#feedmodule-PRO,
+#video-masthead,
+#watch-buy-urls,
+#sub-frame-error,
+#main-frame-error,
+#watch7-sidebar-ads,
+#feed-pyv-container,
+#shelf-pyv-container,
+#watch-branded-actions,
+#watch-channel-brand-div,
+#homepage-chrome-side-promo,
+#watch-channel-brand-div-text {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide by Class */
+
+.iv-promo,
+.video-ads,
+.promoted-videos,
+.ytp-ad-progress,
+.ytp-ad-progress-list,
+.searchView.list-view,
+.html5-ad-progress-list,
+.watch-extra-info-right,
+.watch-extra-info-column,
+.lohp-pyv-shelf-container,
+.ytd-merch-shelf-renderer,
+.carousel-offer-url-container,
+.youtubeSuperLeaderBoardAdHolder,
+.youtubeSuperLeaderOverallAdArea,
+.ytd-movie-offer-module-renderer,
+.ytd-action-companion-ad-renderer {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide by Rule */
+
+iframe[id^=ad_],
+div[class*="-ad-v"],
+div[class*="-ads-"],
+a[href*="/adwords/"],
+a[href*="doubleclick.net"],
+iframe[src*="doubleclick.net"],
+a[href^="http://www.youtube.com/cthru?"],
+a[href^="https://www.youtube.com/cthru?"],
+a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* PROGRESS BAR */
+
+.pprogg {
+  position: absolute;
+  left: var(--padding, 12px);
+  bottom: 0;
+  width: calc(100% - var(--padding, 12px) * 2);
+  height: var(--height, 3px);
+  background: var(--parent-color, rgba(255, 255, 255, 0.2));
+  z-index: 50;
+  display: none;
+}
+
+.pprogg [data-type=progress] {
+  background: var(--progress-color, #f00);
+  height: 100%;
+  width: var(--progress, '0');
+  position: absolute;
+}
+.pprogg [data-type=loaded] {
+  position: absolute;
+  background: var(--loaded-color, rgba(255, 255, 255, 0.4));
+  height: 100%;
+  width: var(--loaded, '0');
+}
+
+.ytp-autohide .pprogg {
+  display: block;
+}
+
+/* BIGGER THEATER MODE */
+
+/* ytd-watch-flexy[theater] div#player-theater-container.ytd-watch-flexy {
+  max-height: calc(100vh - 56px);
+}
+
+@media all and (display-mode: fullscreen) {
+  ytd-watch-flexy[theater] div#player-theater-container.ytd-watch-flexy {
+      max-height: 100vh;
+  }
+} */
+
+/* HIDE GRADIENT BUTTOM */
+
+/* .ytp-gradient-bottom {
+  display: none;
+} */
+
+/* HIDE LATEST POST */
+
+#content.ytd-rich-item-renderer ytd-post-renderer.ytd-rich-item-renderer, #content.ytd-rich-item-renderer ytd-shared-post-renderer.ytd-rich-item-renderer {
+  display: none;
+}
+
+ytd-rich-shelf-renderer[is-show-more-hidden] #dismissible.ytd-rich-shelf-renderer {
+  display: none;
+}
+
+#content.ytd-rich-section-renderer > *.ytd-rich-section-renderer {
+  display: none;
+}
+
+/* CLOSED CAPTIONS */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap'); */
+
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSansBold.ttf');
+  font-weight: bold;
+  font-style: normal;
+>>>>>>> 677f975 (first commit)
 }
 
 span.captions-text {
@@ -17,7 +165,11 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
   font-weight: bold !important;
   background: transparent !important;
   /* text-shadow: 2px 2px 0 #000000 !important; */
+<<<<<<< HEAD
   text-shadow:#000 0px 0px 1px,
+=======
+  /* text-shadow:#000 0px 0px 1px,
+>>>>>>> 677f975 (first commit)
               #000 0px 0px 1px,
               #000 0px 0px 1px,
               #000 0px 0px 1px,
@@ -30,7 +182,51 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
               #000 0px 0px 1px,
               #000 0px 0px 1px,
               #000 0px 0px 1px,
+<<<<<<< HEAD
               #000 0px 0px 1px !important;
+=======
+              #000 0px 0px 1px !important; */
+  text-shadow:#000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px,
+              #000 -1px 1px 1px,
+              #000 1px 1px 1px,
+              #000 1px -1px 1px,
+              #000 -1px -1px 1px !important;
+>>>>>>> 677f975 (first commit)
   font-family: 'Netflix Sans' !important;
   line-height: normal !important;
   -webkit-font-smoothing: antialiased !important;
