@@ -140,8 +140,15 @@ ytd-rich-shelf-renderer[is-show-more-hidden] #dismissible.ytd-rich-shelf-rendere
 
 @font-face {
   font-family: 'Netflix Sans';
-  src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSansBold.ttf');
-  font-weight: bold;
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSans-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSans-Medium.otf');
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -201,15 +208,10 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
               #000 1px 1px 1px,
               #000 1px -1px 1px,
               #000 -1px -1px 1px,
-              #000 -1px 1px 1px,
-              #000 1px 1px 1px,
-              #000 1px -1px 1px,
-              #000 -1px -1px 1px,
-              #000 -1px 1px 1px,
-              #000 1px 1px 1px,
-              #000 1px -1px 1px,
-              #000 -1px -1px 1px !important;
+              #000 0px 0px 30px,
+              #000 0px 0px 30px !important;
   font-family: 'Netflix Sans' !important;
+  font-weight: 500 !important;
   line-height: normal !important;
   -webkit-font-smoothing: antialiased !important;
 }
