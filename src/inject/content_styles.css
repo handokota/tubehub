@@ -208,8 +208,8 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
               #000 1px 1px 1px,
               #000 1px -1px 1px,
               #000 -1px -1px 1px,
-              #000 0px 0px 20px,
-              #000 0px 0px 20px !important;
+              #000 0px 0px 10px,
+              #000 0px 0px 10px !important;
   font-family: 'Netflix Sans' !important;
   font-weight: 500 !important;
   line-height: normal !important;
