@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "TubeHub",
   "default_locale": "en",
@@ -48,54 +47,3 @@
     }
   ]
 }
-=======
-{
-  "name": "TubeHub",
-  "default_locale": "en",
-  "description": "__MSG_description_ext__",
-  "author": "handokota",
-  "version": "2.0.0",
-  "manifest_version": 3,
-  "host_permissions": [
-    "*://*.youtube.com/*"
-  ],
-  "permissions": [
-    "storage",
-    "cookies",
-    "scripting"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [{
-    "matches": [
-      "*://*.youtube.com/*"
-    ],
-    "js": [
-			"src/inject/content_script.js"
-    ],
-    "css": [
-      "src/inject/content_styles.css"
-    ],
-    "run_at": "document_start",
-    "all_frames": true
-  }],
-  "homepage_url": "https://github.com/handokota/tubehub",
-  "icons": {
-    "16": "assets/icon16.png",
-    "32": "assets/icon32.png",
-    "48": "assets/icon48.png",
-    "128": "assets/icon128.png"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "*.otf"
-      ],
-      "matches": [
-        "<all_urls>"
-      ]
-    }
-  ]
-}
->>>>>>> 677f975 (first commit)

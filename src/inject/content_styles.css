@@ -152,9 +152,9 @@ span.captions-text {
 span.captions-text span.caption-visual-line span.ytp-caption-segment {
   color: white !important;
   /* font-size: 48px !important; */
-  font-weight: bold !important;
+  font-weight: bolder !important;
   background: transparent !important;
-  /* text-shadow: 2px 2px 0 #000000 !important; */
+  text-shadow: 0px 0px 7px #000000 !important;
   /* text-shadow:#000 0px 0px 1px,
               #000 0px 0px 1px,
               #000 0px 0px 1px,
@@ -169,7 +169,7 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
               #000 0px 0px 1px,
               #000 0px 0px 1px,
               #000 0px 0px 1px !important; */
-  text-shadow:#000 -1px 1px 1px,
+  /* text-shadow:#000 -1px 1px 1px,
               #000 1px 1px 1px,
               #000 1px -1px 1px,
               #000 -1px -1px 1px,
@@ -208,7 +208,7 @@ span.captions-text span.caption-visual-line span.ytp-caption-segment {
               #000 -1px 1px 1px,
               #000 1px 1px 1px,
               #000 1px -1px 1px,
-              #000 -1px -1px 1px !important;
+              #000 -1px -1px 1px !important; */
   font-family: 'Netflix Sans' !important;
   line-height: normal !important;
   -webkit-font-smoothing: antialiased !important;
