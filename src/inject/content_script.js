@@ -41,7 +41,7 @@
     });
 
     var updateQuality = function(preferredQuality) {
-      preferredQuality = '1080p'
+      preferredQuality = '1440p'
       if (preferredQuality === undefined) {
         preferredQuality = 'best-available';
         chrome.storage.sync.set({preferredQuality: preferredQuality}, function() {});
